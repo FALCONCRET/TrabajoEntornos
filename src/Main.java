@@ -25,6 +25,8 @@ public class Main {
 
                     break;
                 case "2":
+                    Calculadora restaC = new Calculadora();
+                    restaC.resta();
 
                     break;
                 case "3":
