@@ -20,6 +20,8 @@ public class Main {
             opcion = sc.nextLine();
             switch (opcion) {//utilizamos el switch para los casos que tenemos para la eleccion del turno.
                 case "1":
+                    Calculadora sumaC = new Calculadora();
+                    sumaC.suma();
 
                     break;
                 case "2":
@@ -40,6 +42,6 @@ public class Main {
                     System.out.println("Opcion no valida, inserta un numero asocido a una opcion :");
                     break;
             }
-        } while (opcion != "0");
+        } while (!opcion.equals("0"));
     }
 }
