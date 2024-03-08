@@ -21,22 +21,22 @@ public class Main {
             switch (opcion) {//utilizamos el switch para los casos que tenemos para la eleccion del turno.
                 case "1":
                     Calculadora sumaC = new Calculadora();
-                    sumaC.suma();
+                    sumaC.suma(2.0, 3.0);
 
                     break;
                 case "2":
                     Calculadora restaC = new Calculadora();
-                    restaC.resta();
+                    restaC.resta(2.0, 3.0);
 
                     break;
                 case "3":
                     Calculadora multipC = new Calculadora();
-                    multipC.multiplicacion();
+                    multipC.multiplicacion(2.0, 3.0);
 
                     break;
                 case "4":
                     Calculadora divisionc = new Calculadora();
-                    divisionc.division();
+                    divisionc.division(6.0, 3.0);
 
                     break;
 
