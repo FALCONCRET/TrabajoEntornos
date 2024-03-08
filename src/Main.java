@@ -30,6 +30,8 @@ public class Main {
 
                     break;
                 case "3":
+                    Calculadora multipC = new Calculadora();
+                    multipC.multiplicacion();
 
                     break;
                 case "4":
