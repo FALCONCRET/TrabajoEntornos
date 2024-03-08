@@ -35,6 +35,8 @@ public class Main {
 
                     break;
                 case "4":
+                    Calculadora divisionc = new Calculadora();
+                    divisionc.division();
 
                     break;
 

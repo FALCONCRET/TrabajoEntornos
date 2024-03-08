@@ -22,11 +22,20 @@ public class Calculadora {
     }
 
     public void multiplicacion(){
-        System.out.println("Introduce el primer numero CON  decimales usando ,");
+        System.out.println("Introduce el primer numero");
         double num1 = sc.nextDouble();
-        System.out.println("Introduce el segundo numero CON  decimales usando ,");
+        System.out.println("Introduce el segundo numero");
         double num2 = sc.nextDouble();
         System.out.println("La multiplicacion es " + (num1*num2));
+
+    }
+
+    public void division(){
+        System.out.println("Introduce el primer numero");
+        double num1 = sc.nextDouble();
+        System.out.println("Introduce el segundo numero");
+        double num2 = sc.nextDouble();
+        System.out.println("La division es " + (num1/num2));
 
     }
 }
